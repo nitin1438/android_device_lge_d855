@@ -1,3 +1,6 @@
+# DU Updater
+ro.du.updater=d855
+
 # Radio
 persist.radio.do_not_init_csvt=1
 rild.libargs=-d /dev/smd0
