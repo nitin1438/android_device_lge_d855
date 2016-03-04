@@ -24,10 +24,6 @@ $(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 # Inherit some common DU stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
-# Boot Animation
-TARGET_SCREEN_WIDTH := 1440
-TARGET_SCREEN_HEIGHT := 2560
-
 # Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := d855
 PRODUCT_NAME := du_d855
