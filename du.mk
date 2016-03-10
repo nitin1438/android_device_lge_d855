@@ -34,5 +34,5 @@ PRODUCT_MANUFACTURER := LGE
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
     PRODUCT_NAME="g3_global_com" \
-    BUILD_FINGERPRINT="lge/g3_global_com/g3:6.0.1/MMMB29V/2554798:user/release-keys \
+    BUILD_FINGERPRINT="lge/g3_global_com/g3:6.0.1/MMMB29V/2554798:user/release-keys" \
     PRIVATE_BUILD_DESC="g3_global_com-user 6.0.1 MMB29V 2554798 release-keys"
