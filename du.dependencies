@@ -20,11 +20,6 @@
     "branch":      "m-caf"
   },
   {
-    "repository":  "DirtyUnicorns/android_packages_apps_Snap",
-    "target_path": "packages/apps/Snap",
-    "branch":      "m-caf"
-  },
-  {
     "repository":  "DirtyUnicorns/android_vendor_lge",
     "target_path": "vendor/lge",
     "branch":      "m-caf"
