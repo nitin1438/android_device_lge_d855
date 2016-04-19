@@ -70,5 +70,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/d855/prebuilt/etc/init.d/89bsod:system/etc/init.d/89bsod
 
+# Dalvik-Hack
+PRODUCT_COPY_FILES += \
+    device/lge/d855/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
+
 # Common G3
 $(call inherit-product, device/lge/g3-common/g3.mk)
