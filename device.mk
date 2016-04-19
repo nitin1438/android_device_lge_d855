@@ -66,5 +66,9 @@ PRODUCT_COPY_FILES += \
     device/lge/g3-common/wcnss/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     device/lge/g3-common/wcnss/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
-# common g3
+# BSOD Killer
+PRODUCT_COPY_FILES += \
+    device/lge/d855/prebuilt/etc/init.d/89bsod:system/etc/init.d/89bsod
+
+# Common G3
 $(call inherit-product, device/lge/g3-common/g3.mk)
