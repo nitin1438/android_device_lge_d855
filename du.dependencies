@@ -10,6 +10,11 @@
     "branch":      "m-caf"
   },
   {
+    "repository":  "DirtyUnicorns/android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm",
+    "branch":      "m-caf"
+  },
+  {
     "repository":  "DirtyUnicorns/android_kernel_lge_g3",
     "target_path": "kernel/lge/g3",
     "branch":      "m-caf"

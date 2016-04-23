@@ -57,6 +57,7 @@ PRODUCT_PACKAGES += \
 
 # FM Radio
 PRODUCT_PACKAGES += \
+    FMRadio \
     libfmjni
 
 PRODUCT_COPY_FILES += \
