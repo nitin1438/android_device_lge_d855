@@ -10,5 +10,18 @@
   {
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common"
+  },
+  {
+    "repository":  "proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch":      "xosp-mm"
+  },
+  {
+    "repository":  "android_external_connectivity",
+    "target_path": "external/connectivity"
+  },
+  {
+    "repository":  "android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm"
   }
 ]
