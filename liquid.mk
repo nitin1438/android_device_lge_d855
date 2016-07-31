@@ -19,14 +19,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/lge/d855/full_d855.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
 # Inherit some common DU stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_phone_vendor.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := d855
-PRODUCT_NAME := du_d855
+PRODUCT_NAME := liquid_d855
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-D855
 PRODUCT_MANUFACTURER := LGE
